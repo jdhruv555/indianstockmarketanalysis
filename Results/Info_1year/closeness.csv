@@ -1,0 +1,13 @@
+,Window,Symbol,Company Name,Closeness Centrality,Industry
+0,1,POWERGRID,Power Grid Corporation of India Ltd.,0.0,POWER
+1,1,DABUR,Dabur India Ltd.,0.0,CONSUMER GOODS
+2,1,VBL,Varun Beverages Ltd.,0.0,CONSUMER GOODS
+3,2,DABUR,Dabur India Ltd.,0.0,CONSUMER GOODS
+4,2,LT,Larsen & Toubro Ltd.,0.0,CONSTRUCTION
+5,2,SBICARD,SBI Cards and Payment Services Ltd.,0.0,FINANCIAL SERVICES
+6,3,DABUR,Dabur India Ltd.,0.0,CONSUMER GOODS
+7,3,VBL,Varun Beverages Ltd.,0.0,CONSUMER GOODS
+8,3,LT,Larsen & Toubro Ltd.,0.0,CONSTRUCTION
+9,4,POWERGRID,Power Grid Corporation of India Ltd.,0.0,POWER
+10,4,DABUR,Dabur India Ltd.,0.0,CONSUMER GOODS
+11,4,VBL,Varun Beverages Ltd.,0.0,CONSUMER GOODS

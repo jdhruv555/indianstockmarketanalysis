@@ -1,0 +1,442 @@
+<?xml version='1.0' encoding='utf-8'?>
+<gexf version="1.2" xmlns="http://www.gexf.net/1.2draft" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2022-04-13">
+    <creator>NetworkX 2.4</creator>
+  </meta>
+  <graph defaultedgetype="undirected" mode="static" name="">
+    <attributes class="node" mode="static">
+      <attribute id="0" title="community" type="long" />
+      <attribute id="1" title="degreecent" type="double" />
+      <attribute id="2" title="sector" type="string" />
+      <attribute id="3" title="closeness" type="double" />
+      <attribute id="4" title="betweenness" type="double" />
+      <attribute id="5" title="c1" type="string" />
+      <attribute id="6" title="c2" type="string" />
+      <attribute id="7" title="c3" type="string" />
+      <attribute id="8" title="c4" type="string" />
+    </attributes>
+    <nodes>
+      <node id="BAJAJFINSV" label="BAJAJFINSV">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="0.06896551724137931" />
+          <attvalue for="2" value="FINANCIAL SERVICES" />
+          <attvalue for="3" value="0.27358490566037735" />
+          <attvalue for="4" value="0.24630541871921183" />
+          <attvalue for="5" value="Green" />
+          <attvalue for="6" value="Green" />
+          <attvalue for="7" value="Green" />
+          <attvalue for="8" value="Green" />
+        </attvalues>
+      </node>
+      <node id="BAJAJ-AUTO" label="BAJAJ-AUTO">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="0.034482758620689655" />
+          <attvalue for="2" value="AUTOMOBILE" />
+          <attvalue for="3" value="0.18354430379746836" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="White" />
+          <attvalue for="6" value="White" />
+          <attvalue for="7" value="White" />
+          <attvalue for="8" value="Green" />
+        </attvalues>
+      </node>
+      <node id="BAJFINANCE" label="BAJFINANCE">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="0.10344827586206896" />
+          <attvalue for="2" value="FINANCIAL SERVICES" />
+          <attvalue for="3" value="0.2265625" />
+          <attvalue for="4" value="0.19704433497536947" />
+          <attvalue for="5" value="Green" />
+          <attvalue for="6" value="Green" />
+          <attvalue for="7" value="Green" />
+          <attvalue for="8" value="Green" />
+        </attvalues>
+      </node>
+      <node id="BHARTIARTL" label="BHARTIARTL">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.034482758620689655" />
+          <attvalue for="2" value="TELECOM" />
+          <attvalue for="3" value="0.29" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="White" />
+          <attvalue for="6" value="White" />
+          <attvalue for="7" value="Green" />
+          <attvalue for="8" value="Green" />
+        </attvalues>
+      </node>
+      <node id="BRITANNIA" label="BRITANNIA">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.06896551724137931" />
+          <attvalue for="2" value="CONSUMER GOODS" />
+          <attvalue for="3" value="0.23770491803278687" />
+          <attvalue for="4" value="0.06896551724137931" />
+          <attvalue for="5" value="Green" />
+          <attvalue for="6" value="Green" />
+          <attvalue for="7" value="Green" />
+          <attvalue for="8" value="Green" />
+        </attvalues>
+      </node>
+      <node id="CIPLA" label="CIPLA">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.034482758620689655" />
+          <attvalue for="2" value="PHARMA" />
+          <attvalue for="3" value="0.29" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="White" />
+          <attvalue for="6" value="White" />
+          <attvalue for="7" value="Green" />
+          <attvalue for="8" value="Green" />
+        </attvalues>
+      </node>
+      <node id="COALINDIA" label="COALINDIA">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="0.06896551724137931" />
+          <attvalue for="2" value="METALS" />
+          <attvalue for="3" value="0.21323529411764705" />
+          <attvalue for="4" value="0.06896551724137931" />
+          <attvalue for="5" value="White" />
+          <attvalue for="6" value="White" />
+          <attvalue for="7" value="Red" />
+          <attvalue for="8" value="Red" />
+        </attvalues>
+      </node>
+      <node id="GRASIM" label="GRASIM">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.20689655172413793" />
+          <attvalue for="2" value="CEMENT &amp; CEMENT PRODUCTS" />
+          <attvalue for="3" value="0.4027777777777778" />
+          <attvalue for="4" value="0.7857142857142857" />
+          <attvalue for="5" value="White" />
+          <attvalue for="6" value="Red" />
+          <attvalue for="7" value="Red" />
+          <attvalue for="8" value="Green" />
+        </attvalues>
+      </node>
+      <node id="HDFCLIFE" label="HDFCLIFE">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="0.034482758620689655" />
+          <attvalue for="2" value="FINANCIAL SERVICES" />
+          <attvalue for="3" value="0.2543859649122807" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="Green" />
+          <attvalue for="6" value="Green" />
+          <attvalue for="7" value="Green" />
+          <attvalue for="8" value="Green" />
+        </attvalues>
+      </node>
+      <node id="HEROMOTOCO" label="HEROMOTOCO">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="0.06896551724137931" />
+          <attvalue for="2" value="AUTOMOBILE" />
+          <attvalue for="3" value="0.2230769230769231" />
+          <attvalue for="4" value="0.06896551724137931" />
+          <attvalue for="5" value="White" />
+          <attvalue for="6" value="Red" />
+          <attvalue for="7" value="White" />
+          <attvalue for="8" value="White" />
+        </attvalues>
+      </node>
+      <node id="HINDALCO" label="HINDALCO">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="0.13793103448275862" />
+          <attvalue for="2" value="METALS" />
+          <attvalue for="3" value="0.3372093023255814" />
+          <attvalue for="4" value="0.41625615763546797" />
+          <attvalue for="5" value="White" />
+          <attvalue for="6" value="Red" />
+          <attvalue for="7" value="Red" />
+          <attvalue for="8" value="Green" />
+        </attvalues>
+      </node>
+      <node id="ICICIBANK" label="ICICIBANK">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="0.06896551724137931" />
+          <attvalue for="2" value="FINANCIAL SERVICES" />
+          <attvalue for="3" value="0.18831168831168832" />
+          <attvalue for="4" value="0.06896551724137931" />
+          <attvalue for="5" value="White" />
+          <attvalue for="6" value="Green" />
+          <attvalue for="7" value="Green" />
+          <attvalue for="8" value="Green" />
+        </attvalues>
+      </node>
+      <node id="INDUSINDBK" label="INDUSINDBK">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="0.034482758620689655" />
+          <attvalue for="2" value="FINANCIAL SERVICES" />
+          <attvalue for="3" value="0.15934065934065933" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="Green" />
+          <attvalue for="6" value="White" />
+          <attvalue for="7" value="Red" />
+          <attvalue for="8" value="Red" />
+        </attvalues>
+      </node>
+      <node id="ITC" label="ITC">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="0.034482758620689655" />
+          <attvalue for="2" value="CONSUMER GOODS" />
+          <attvalue for="3" value="0.2543859649122807" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="Green" />
+          <attvalue for="6" value="Green" />
+          <attvalue for="7" value="Red" />
+          <attvalue for="8" value="White" />
+        </attvalues>
+      </node>
+      <node id="KOTAKBANK" label="KOTAKBANK">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="0.034482758620689655" />
+          <attvalue for="2" value="FINANCIAL SERVICES" />
+          <attvalue for="3" value="0.1858974358974359" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="Green" />
+          <attvalue for="6" value="Green" />
+          <attvalue for="7" value="Green" />
+          <attvalue for="8" value="Green" />
+        </attvalues>
+      </node>
+      <node id="LT" label="LT">
+        <attvalues>
+          <attvalue for="0" value="2" />
+          <attvalue for="1" value="0.13793103448275862" />
+          <attvalue for="2" value="CONSTRUCTION" />
+          <attvalue for="3" value="0.3372093023255814" />
+          <attvalue for="4" value="0.4064039408866995" />
+          <attvalue for="5" value="White" />
+          <attvalue for="6" value="White" />
+          <attvalue for="7" value="Red" />
+          <attvalue for="8" value="Green" />
+        </attvalues>
+      </node>
+      <node id="M&amp;M" label="M&amp;M">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="0.034482758620689655" />
+          <attvalue for="2" value="AUTOMOBILE" />
+          <attvalue for="3" value="0.2196969696969697" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="Green" />
+          <attvalue for="6" value="Red" />
+          <attvalue for="7" value="Red" />
+          <attvalue for="8" value="Green" />
+        </attvalues>
+      </node>
+      <node id="MARUTI" label="MARUTI">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="0.1724137931034483" />
+          <attvalue for="2" value="AUTOMOBILE" />
+          <attvalue for="3" value="0.27884615384615385" />
+          <attvalue for="4" value="0.31773399014778325" />
+          <attvalue for="5" value="White" />
+          <attvalue for="6" value="Red" />
+          <attvalue for="7" value="Red" />
+          <attvalue for="8" value="Red" />
+        </attvalues>
+      </node>
+      <node id="NESTLEIND" label="NESTLEIND">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.034482758620689655" />
+          <attvalue for="2" value="CONSUMER GOODS" />
+          <attvalue for="3" value="0.19333333333333333" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="Green" />
+          <attvalue for="6" value="Green" />
+          <attvalue for="7" value="Green" />
+          <attvalue for="8" value="Green" />
+        </attvalues>
+      </node>
+      <node id="NTPC" label="NTPC">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="0.034482758620689655" />
+          <attvalue for="2" value="POWER" />
+          <attvalue for="3" value="0.17682926829268292" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="White" />
+          <attvalue for="6" value="White" />
+          <attvalue for="7" value="Red" />
+          <attvalue for="8" value="Green" />
+        </attvalues>
+      </node>
+      <node id="ONGC" label="ONGC">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="0.06896551724137931" />
+          <attvalue for="2" value="OIL &amp; GAS" />
+          <attvalue for="3" value="0.2636363636363636" />
+          <attvalue for="4" value="0.1330049261083744" />
+          <attvalue for="5" value="White" />
+          <attvalue for="6" value="Red" />
+          <attvalue for="7" value="Red" />
+          <attvalue for="8" value="Red" />
+        </attvalues>
+      </node>
+      <node id="RELIANCE" label="RELIANCE">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="0.034482758620689655" />
+          <attvalue for="2" value="OIL &amp; GAS" />
+          <attvalue for="3" value="0.2196969696969697" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="Green" />
+          <attvalue for="6" value="Green" />
+          <attvalue for="7" value="Green" />
+          <attvalue for="8" value="Green" />
+        </attvalues>
+      </node>
+      <node id="SHREECEM" label="SHREECEM">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="0.034482758620689655" />
+          <attvalue for="2" value="CEMENT &amp; CEMENT PRODUCTS" />
+          <attvalue for="3" value="0.2543859649122807" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="White" />
+          <attvalue for="6" value="Green" />
+          <attvalue for="7" value="Green" />
+          <attvalue for="8" value="Green" />
+        </attvalues>
+      </node>
+      <node id="TATACONSUM" label="TATACONSUM">
+        <attvalues>
+          <attvalue for="0" value="1" />
+          <attvalue for="1" value="0.06896551724137931" />
+          <attvalue for="2" value="CONSUMER GOODS" />
+          <attvalue for="3" value="0.3020833333333333" />
+          <attvalue for="4" value="0.1330049261083744" />
+          <attvalue for="5" value="White" />
+          <attvalue for="6" value="White" />
+          <attvalue for="7" value="Green" />
+          <attvalue for="8" value="Green" />
+        </attvalues>
+      </node>
+      <node id="TATASTEEL" label="TATASTEEL">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="0.034482758620689655" />
+          <attvalue for="2" value="METALS" />
+          <attvalue for="3" value="0.2543859649122807" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="White" />
+          <attvalue for="6" value="Red" />
+          <attvalue for="7" value="Red" />
+          <attvalue for="8" value="Green" />
+        </attvalues>
+      </node>
+      <node id="TCS" label="TCS">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="0.034482758620689655" />
+          <attvalue for="2" value="IT" />
+          <attvalue for="3" value="0.21014492753623187" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="Green" />
+          <attvalue for="6" value="Green" />
+          <attvalue for="7" value="Green" />
+          <attvalue for="8" value="Green" />
+        </attvalues>
+      </node>
+      <node id="TECHM" label="TECHM">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="0.10344827586206896" />
+          <attvalue for="2" value="IT" />
+          <attvalue for="3" value="0.2636363636363636" />
+          <attvalue for="4" value="0.1354679802955665" />
+          <attvalue for="5" value="Green" />
+          <attvalue for="6" value="Green" />
+          <attvalue for="7" value="Green" />
+          <attvalue for="8" value="Green" />
+        </attvalues>
+      </node>
+      <node id="TITAN" label="TITAN">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="0.034482758620689655" />
+          <attvalue for="2" value="CONSUMER GOODS" />
+          <attvalue for="3" value="0.2196969696969697" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="Green" />
+          <attvalue for="6" value="Green" />
+          <attvalue for="7" value="Green" />
+          <attvalue for="8" value="Green" />
+        </attvalues>
+      </node>
+      <node id="ULTRACEMCO" label="ULTRACEMCO">
+        <attvalues>
+          <attvalue for="0" value="0" />
+          <attvalue for="1" value="0.10344827586206896" />
+          <attvalue for="2" value="CEMENT &amp; CEMENT PRODUCTS" />
+          <attvalue for="3" value="0.3372093023255814" />
+          <attvalue for="4" value="0.39408866995073893" />
+          <attvalue for="5" value="White" />
+          <attvalue for="6" value="White" />
+          <attvalue for="7" value="White" />
+          <attvalue for="8" value="Green" />
+        </attvalues>
+      </node>
+      <node id="WIPRO" label="WIPRO">
+        <attvalues>
+          <attvalue for="0" value="3" />
+          <attvalue for="1" value="0.034482758620689655" />
+          <attvalue for="2" value="IT" />
+          <attvalue for="3" value="0.21014492753623187" />
+          <attvalue for="4" value="0.0" />
+          <attvalue for="5" value="White" />
+          <attvalue for="6" value="Green" />
+          <attvalue for="7" value="Green" />
+          <attvalue for="8" value="Green" />
+        </attvalues>
+      </node>
+    </nodes>
+    <edges>
+      <edge id="0" source="BAJAJFINSV" target="BAJFINANCE" weight="0.596657355607052" />
+      <edge id="1" source="BAJAJFINSV" target="LT" weight="0.9359487165438072" />
+      <edge id="2" source="BAJAJ-AUTO" target="HEROMOTOCO" weight="0.8378544026261364" />
+      <edge id="3" source="BAJFINANCE" target="ICICIBANK" weight="0.9230384607371461" />
+      <edge id="4" source="BAJFINANCE" target="KOTAKBANK" weight="0.9402127418834526" />
+      <edge id="5" source="BHARTIARTL" target="GRASIM" weight="1.0677078252031311" />
+      <edge id="6" source="BRITANNIA" target="NESTLEIND" weight="0.9726253132630263" />
+      <edge id="7" source="BRITANNIA" target="TATACONSUM" weight="1.0779610382569491" />
+      <edge id="8" source="CIPLA" target="GRASIM" weight="1.1823705003085963" />
+      <edge id="9" source="COALINDIA" target="ONGC" weight="0.9581231653602786" />
+      <edge id="10" source="COALINDIA" target="NTPC" weight="1.0089598604503551" />
+      <edge id="11" source="GRASIM" target="ULTRACEMCO" weight="0.8402380615040002" />
+      <edge id="12" source="GRASIM" target="LT" weight="0.9444575162494075" />
+      <edge id="13" source="GRASIM" target="HINDALCO" weight="0.9695359714832658" />
+      <edge id="14" source="GRASIM" target="TATACONSUM" weight="1.0611314715905846" />
+      <edge id="15" source="HDFCLIFE" target="LT" weight="1.0705138952858109" />
+      <edge id="16" source="HEROMOTOCO" target="MARUTI" weight="0.9295160030897801" />
+      <edge id="17" source="HINDALCO" target="TATASTEEL" weight="0.7589466384404111" />
+      <edge id="18" source="HINDALCO" target="ONGC" weight="1.0497618777608566" />
+      <edge id="19" source="HINDALCO" target="TECHM" weight="1.1497825881443848" />
+      <edge id="20" source="ICICIBANK" target="INDUSINDBK" weight="0.9757048734120374" />
+      <edge id="21" source="ITC" target="LT" weight="1.1072488428533127" />
+      <edge id="22" source="M&amp;M" target="MARUTI" weight="0.9787747442593725" />
+      <edge id="23" source="MARUTI" target="ULTRACEMCO" weight="0.9869143833180262" />
+      <edge id="24" source="MARUTI" target="TITAN" weight="1.0392304845413265" />
+      <edge id="25" source="MARUTI" target="RELIANCE" weight="1.0807404868885038" />
+      <edge id="26" source="SHREECEM" target="ULTRACEMCO" weight="0.7962411694957753" />
+      <edge id="27" source="TCS" target="TECHM" weight="0.997997995989972" />
+      <edge id="28" source="TECHM" target="WIPRO" weight="1.0039920318408906" />
+    </edges>
+  </graph>
+</gexf>
